@@ -1148,6 +1148,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2186d7a2fd5046fab66320856f64640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 1525581488}
+  cardReward: {fileID: 1973881335}
+  dialogueToShow: "Yum! The famous Way Bakery bread. You're one step closer to being
+    Kallioj\xE4b\xE4."
 --- !u!61 &326573027
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2655,6 +2659,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2186d7a2fd5046fab66320856f64640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 358552558}
+  cardReward: {fileID: 458128353}
+  dialogueToShow: "What a find! A vintage leather jacket. You're one step cloder
+    to being Kallioj\xE4b\xE4."
 --- !u!61 &634104237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3224,6 +3232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2186d7a2fd5046fab66320856f64640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 2053704847}
+  cardReward: {fileID: 1894630978}
+  dialogueToShow: "FLOW 2025 here we come! You're one step closer to being Skenett\xE4j\xE4!"
 --- !u!61 &729578252
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3388,6 +3399,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2186d7a2fd5046fab66320856f64640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 200527603}
+  cardReward: {fileID: 1295338116}
+  dialogueToShow: "Yo it\u2019s you! We bumped into each other at Siltanen last night,
+    right? Can\u2019t believe I lost my shutters again. Guess it\u2019s good I\u2019m
+    heading back to Berlin next week. I\u2019ll grab a new pair before Subterra.
+    You going? It\u2019s this sick techno event in Berlin. It\u2019s gonna be packed
+    with everyone who\u2019s anyone. Actually, there might be one bed left in our
+    airbnb if you wanna crash with us. "
 --- !u!61 &765613329
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4062,6 +4081,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2186d7a2fd5046fab66320856f64640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 326158547}
+  cardReward: {fileID: 267692367}
+  dialogueToShow: "COOL! New sunglasses! You're one step closer to being Skenett\xE4j\xE4."
 --- !u!61 &1023109654
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4935,6 +4957,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2186d7a2fd5046fab66320856f64640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 163058811}
+  cardReward: {fileID: 1535309337}
+  dialogueToShow: "Hanging at the Harju8! I see you're one step cloder to being Skenett\xE4j\xE4."
 --- !u!61 &1283175016
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7133,6 +7158,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2186d7a2fd5046fab66320856f64640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 111906149}
+  cardReward: {fileID: 10347837}
+  dialogueToShow: "Cool, a plant! You're one step closer to being Kallioj\xE4b\xE4!"
 --- !u!95 &1732878695
 Animator:
   serializedVersion: 7
@@ -9086,6 +9114,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2186d7a2fd5046fab66320856f64640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 584786723}
+  cardReward: {fileID: 1287949}
+  dialogueToShow: "Here for the record player? This one\u2019s a gem\u2013been with
+    me through my years in Kallio. I\u2019m moving to Vallila now, so it\u2019s time
+    to let it go. It\u2019s got character, and I could even throw in a record or
+    two for the same price. We said 20 bucks, right? "
 --- !u!1 &2029246884
 GameObject:
   m_ObjectHideFlags: 0
