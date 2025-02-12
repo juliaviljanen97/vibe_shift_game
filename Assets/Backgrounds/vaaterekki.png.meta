@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vaaterekki_0: 2120874183805619303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

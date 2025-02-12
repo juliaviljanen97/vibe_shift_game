@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kallio_hahmo01_0: 2374245614151371430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
