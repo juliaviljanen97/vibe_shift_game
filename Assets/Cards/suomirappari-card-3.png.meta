@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      suomirappari-card-3_0: 6062541404474823686
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

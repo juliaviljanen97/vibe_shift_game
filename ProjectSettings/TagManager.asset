@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - UI
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -41,6 +42,21 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1477051419
+    locked: 0
+  - name: NPC
+    uniqueID: 1589211577
+    locked: 0
+  - name: Objects
+    uniqueID: 450133659
+    locked: 0
+  - name: Background
+    uniqueID: 3315480629
+    locked: 0
+  - name: Obsticles
+    uniqueID: 1726615987
     locked: 0
   m_RenderingLayers:
   - Default
