@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 2de3f2f962bf944ff9577d73279f4b73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9219538767153307162
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_0"
+  - first:
+      213: 5472137631506028778
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_1"
+  - first:
+      213: -3600929036595900440
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_2"
+  - first:
+      213: -1226629894577217575
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_3"
+  - first:
+      213: -8976262789584939646
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_4"
+  - first:
+      213: 4654096845436355126
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_5"
+  - first:
+      213: -1283568719753155451
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_6"
+  - first:
+      213: -3085922473168954825
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_7"
+  - first:
+      213: 426269586281408338
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_8"
+  - first:
+      213: -2361715567806778039
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_9"
+  - first:
+      213: 8978222480650889247
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_10"
+  - first:
+      213: 4703875117993464402
+    second: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_11"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_0"
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 2569
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e9d1959a162ff70800000000000000
+      internalID: 9219538767153307162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_1"
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 653
+        width: 1936
+        height: 1975
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8d6f7ee20f0fb40800000000000000
+      internalID: 5472137631506028778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_2"
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 2569
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efcf48ae1ee60ec0800000000000000
+      internalID: -3600929036595900440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_3"
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 2188
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df99de1c922afee0800000000000000
+      internalID: -1226629894577217575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_4"
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2188
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2859b381d88ed6380800000000000000
+      internalID: -8976262789584939646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_5"
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1781
+        width: 268
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63200862c6ca69040800000000000000
+      internalID: 4654096845436355126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_6"
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1710
+        width: 281
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c6f4ecc09df2ee0800000000000000
+      internalID: -1283568719753155451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_7"
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1850
+        width: 429
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a9e5e4cd99c25d0800000000000000
+      internalID: -3085922473168954825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_8"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 735
+        width: 1088
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2572bd42ee96ae500800000000000000
+      internalID: 426269586281408338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_9"
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 571
+        width: 281
+        height: 972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945fd583430893fd0800000000000000
+      internalID: -2361715567806778039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_10"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 1378
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f186f9907cd099c70800000000000000
+      internalID: 8978222480650889247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_To\u0308o\u0308lo\u0308_sa\u0308la\u0308t_11"
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 191
+        width: 1181
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2529cc36f75874140800000000000000
+      internalID: 4703875117993464402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

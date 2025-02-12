@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: e826594a3d3fb4bf987a290950436d93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2700051130769682836
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_0"
+  - first:
+      213: 3539031863712496925
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_1"
+  - first:
+      213: 4105734577597835093
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_2"
+  - first:
+      213: 4269516115556814012
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_3"
+  - first:
+      213: 1362666590471116103
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_4"
+  - first:
+      213: -7019841266940345645
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_5"
+  - first:
+      213: -970931338837038935
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_6"
+  - first:
+      213: 9084814051635066355
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_7"
+  - first:
+      213: 6691037449057973361
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_8"
+  - first:
+      213: -7922140515208028724
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_9"
+  - first:
+      213: 3105154621820245650
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_10"
+  - first:
+      213: 3414900918329524167
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_11"
+  - first:
+      213: -4530620240665135060
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_12"
+  - first:
+      213: -253647594431410147
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_13"
+  - first:
+      213: -304159270609417046
+    second: "Loppuprojekti_Kallio_sa\u0308la\u0308t_14"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_0"
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2315
+        width: 204
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4913beca232887520800000000000000
+      internalID: 2700051130769682836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_1"
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 2001
+        width: 133
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d3f5dbaba2d1130800000000000000
+      internalID: 3539031863712496925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_2"
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 2289
+        width: 204
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557e1cf58df7af830800000000000000
+      internalID: 4105734577597835093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_3"
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1824
+        width: 280
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcc196494e504b30800000000000000
+      internalID: 4269516115556814012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_4"
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1834
+        width: 268
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745d2585b0a29e210800000000000000
+      internalID: 1362666590471116103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_5"
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1824
+        width: 281
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d284687f83849e90800000000000000
+      internalID: -7019841266940345645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_6"
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1834
+        width: 268
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8e25f671f8682f0800000000000000
+      internalID: -970931338837038935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_7"
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1716
+        width: 123
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f57f2e1f3eb31e70800000000000000
+      internalID: 9084814051635066355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_8"
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1459
+        width: 1266
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174bfe9fb175bdc50800000000000000
+      internalID: 6691037449057973361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_9"
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 1413
+        width: 493
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd9b4abc27ee0290800000000000000
+      internalID: -7922140515208028724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_10"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 968
+        width: 1270
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296124e3da9b71b20800000000000000
+      internalID: 3105154621820245650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_11"
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 722
+        width: 378
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfbf24da4a246f20800000000000000
+      internalID: 3414900918329524167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_12"
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 1117
+        width: 233
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28b5f635e00021c0800000000000000
+      internalID: -4530620240665135060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_13"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 398
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1098c35bdcda7cf0800000000000000
+      internalID: -253647594431410147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Loppuprojekti_Kallio_sa\u0308la\u0308t_14"
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 279
+        width: 2183
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac0f2041c867cbf0800000000000000
+      internalID: -304159270609417046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
