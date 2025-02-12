@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Steissi_tausta_0: -1670996903183190449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

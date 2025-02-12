@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Loppuprojekti_Kallio_taustat_0: 8294612706217362601
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

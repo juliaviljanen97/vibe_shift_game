@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Loppuprojekti_Otaniemi_tausta_0: 3743841522838192298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

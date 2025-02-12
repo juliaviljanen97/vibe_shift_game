@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: be0f5b5cc28b446b3b4502adb9cc287c
+guid: 5fb6b55eb37f144bfaa99a1ac470608c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3398676677122221262
-    second: MEri_0
+      213: 2120874183805619303
+    second: vaaterekki_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MEri_0
+      name: vaaterekki_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 92
-        width: 915
-        height: 1278
+        x: 4
+        y: 18
+        width: 398
+        height: 587
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec4664e4e668a2f20800000000000000
-      internalID: 3398676677122221262
+      spriteID: 76cc70355dbde6d10800000000000000
+      internalID: 2120874183805619303
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      MEri_0: 3398676677122221262
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
