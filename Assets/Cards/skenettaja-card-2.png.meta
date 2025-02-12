@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skenettaja-card-2_0: 7393710473412363058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

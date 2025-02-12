@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kalliojaba-card-3_0: 3829709264135285394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      patagonia-2_0: -2959078079296158143
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

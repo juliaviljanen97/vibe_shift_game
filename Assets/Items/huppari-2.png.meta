@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      huppari-2_0: -4981437749690871760
+      huppari-2_1: -8957239006599009502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

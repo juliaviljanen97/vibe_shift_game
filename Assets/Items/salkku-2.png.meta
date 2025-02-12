@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      salkku-2_0: 1180981332634730151
+      salkku-2_1: 6447428447625442294
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
