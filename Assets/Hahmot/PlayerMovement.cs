@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,7 +20,16 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Liikuttaa pelaajaa
-        rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
+        // Testataan tuleva sijainti ennen siirtoa
+        Vector2 newPosition = rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime;
+        
+        // Katsotaan, onko siinä este
+        Collider2D obstacle = Physics2D.OverlapCircle(newPosition, 0.2f, LayerMask.GetMask("Obstacle"));
+
+        // Jos ei osuta esteeseen, liikutaan normaalisti
+        if (obstacle == null)
+        {
+            rb.MovePosition(newPosition);
+        }
     }
 }

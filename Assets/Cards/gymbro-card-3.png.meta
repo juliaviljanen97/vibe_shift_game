@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gymbro-card-3_0: 5115440346399038517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
