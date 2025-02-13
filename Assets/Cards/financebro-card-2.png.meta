@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      financebro-card-2_0: -6163787879252517445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
