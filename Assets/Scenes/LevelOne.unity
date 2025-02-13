@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 7397274}
   - component: {fileID: 7397273}
   m_Layer: 5
-  m_Name: FlowCard
+  m_Name: SalkkuCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5631046041290119724, guid: 762e0975fbac84a4cbf6a6dc6f3bbc2a, type: 3}
+  m_Sprite: {fileID: 4972856478209240817, guid: 61355f77164394ca080ac3798b0d705d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -823,7 +823,7 @@ GameObject:
   - component: {fileID: 108003643}
   - component: {fileID: 108003642}
   m_Layer: 5
-  m_Name: Sunglasses
+  m_Name: Psycho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -900,7 +900,7 @@ GameObject:
   - component: {fileID: 110061426}
   - component: {fileID: 110061425}
   m_Layer: 5
-  m_Name: Flow-Dialogi
+  m_Name: SalkkuDialogi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,7 +1038,7 @@ GameObject:
   - component: {fileID: 130137124}
   - component: {fileID: 130137123}
   m_Layer: 0
-  m_Name: KallioJaba
+  m_Name: FinanceBro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,10 +1058,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1132246343}
   cardReward: {fileID: 2111647011}
-  dialogueToShow: "Here for the record player? This one\u2019s a gem\u2013been with
-    me through my years in Kallio. I\u2019m moving to Vallila now, so it\u2019s time
-    to let it go. It\u2019s got character, and I could even throw in a record or
-    two for the same price. We said 20 bucks, right? "
+  dialogueToShow: "So here\u2019s the deal with investing\u2014it's all about building
+    wealth over time. You can start small with ETFs or index funds, those are pretty
+    low-risk and track the market as a whole. If you\u2019re a bit bolder, individual
+    stocks can be a good play, ya know? I\u2019ve been in the game for a few years
+    now, building up a solid portfolio, and crushing it with some real estate investments
+    too. It\u2019s been a grind, but it's paying off. Let\u2019s go to \u201Ctorstaikalle\u201D
+    and chat more! "
 --- !u!61 &130137124
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1194,7 +1197,7 @@ Transform:
   m_GameObject: {fileID: 130137122}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.640259, y: -3.6837158, z: 0}
+  m_LocalPosition: {x: 5.14, y: -0.14, z: -0.4}
   m_LocalScale: {x: 0.71, y: 0.71, z: 0.71}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1229,13 +1232,13 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1132246344}
+  - {fileID: 1978277525}
+  - {fileID: 108003641}
+  - {fileID: 1047636586}
   - {fileID: 1446403175}
   - {fileID: 1590457356}
   - {fileID: 1529528333}
   - {fileID: 1221401549}
-  - {fileID: 1978277525}
-  - {fileID: 1047636586}
-  - {fileID: 108003641}
   m_Father: {fileID: 314424404}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1255,7 +1258,7 @@ GameObject:
   - component: {fileID: 143319468}
   - component: {fileID: 143319467}
   m_Layer: 5
-  m_Name: BerlinCard
+  m_Name: MattiCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1330,7 +1333,7 @@ GameObject:
   - component: {fileID: 147154341}
   - component: {fileID: 147154340}
   m_Layer: 5
-  m_Name: LJ-Dialogi
+  m_Name: Hattu-Dialogi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2628,7 +2631,7 @@ GameObject:
   - component: {fileID: 367665237}
   - component: {fileID: 367665236}
   m_Layer: 5
-  m_Name: KallioJaba-Buttoni
+  m_Name: FinanceBro-Buttoni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2760,7 +2763,7 @@ GameObject:
   - component: {fileID: 374645951}
   - component: {fileID: 374645950}
   m_Layer: 5
-  m_Name: glasses-Dialogi
+  m_Name: Psycho-Dialogi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2941,7 +2944,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Yeah!
+  m_text: Okay!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
   m_sharedMaterial: {fileID: 1942846863741834248, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
@@ -3032,7 +3035,7 @@ GameObject:
   - component: {fileID: 434936725}
   - component: {fileID: 434936724}
   m_Layer: 5
-  m_Name: KallioJaba-Dialogi
+  m_Name: FinanceBro-Dialogi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3375,7 +3378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Typical tuesday!
+  m_text: Facts!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
   m_sharedMaterial: {fileID: 1942846863741834248, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
@@ -3467,7 +3470,7 @@ GameObject:
   - component: {fileID: 470623037}
   - component: {fileID: 470623036}
   m_Layer: 5
-  m_Name: 8-Buttoni
+  m_Name: Vest-Buttoni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4131,7 +4134,7 @@ GameObject:
   - component: {fileID: 592803277}
   - component: {fileID: 592803276}
   m_Layer: 5
-  m_Name: LJCard
+  m_Name: hattuCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4369,7 +4372,7 @@ GameObject:
   - component: {fileID: 665536472}
   - component: {fileID: 665536471}
   m_Layer: 5
-  m_Name: glasses-Buttoni
+  m_Name: Psycho-Buttoni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4851,11 +4854,11 @@ GameObject:
   m_Component:
   - component: {fileID: 717144907}
   - component: {fileID: 717144906}
-  - component: {fileID: 717144905}
+  - component: {fileID: 717144908}
   - component: {fileID: 717144904}
   - component: {fileID: 717144903}
   m_Layer: 0
-  m_Name: Harju8
+  m_Name: Vest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4875,7 +4878,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1978277524}
   cardReward: {fileID: 1631882187}
-  dialogueToShow: "Hanging at the Harju8! I see you're one step cloder to being Skenett\xE4j\xE4."
+  dialogueToShow: That vest is a must-have! You're one step closer to being a Finance
+    bro.
 --- !u!61 &717144904
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4910,34 +4914,18 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -1.3468342}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 3.95, y: 5.66}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.1343555, y: 12.284908}
   m_EdgeRadius: 0
---- !u!111 &717144905
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 717144902}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
 --- !u!212 &717144906
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4982,7 +4970,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -2404830069492206877, guid: ea3cd3a48f66c4298a2f836614f68630, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5002,12 +4990,34 @@ Transform:
   m_GameObject: {fileID: 717144902}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.38, y: 3.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 12.25, y: 5.1, z: 0}
+  m_LocalScale: {x: 0.37, y: 0.37, z: 0.37}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &717144908
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717144902}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0647f2e4691aa448fae93eb25635feb1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &791728262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5464,7 +5474,7 @@ GameObject:
   - component: {fileID: 867367961}
   - component: {fileID: 867367960}
   m_Layer: 5
-  m_Name: Flow-Buttoni
+  m_Name: Salkku-Buttoni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6235,7 +6245,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sure, let's go!
+  m_text: Count me in!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
   m_sharedMaterial: {fileID: 1942846863741834248, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
@@ -6462,7 +6472,7 @@ GameObject:
   - component: {fileID: 1047636588}
   - component: {fileID: 1047636587}
   m_Layer: 5
-  m_Name: Flow
+  m_Name: Salkku
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7021,7 +7031,7 @@ GameObject:
   - component: {fileID: 1132246346}
   - component: {fileID: 1132246345}
   m_Layer: 5
-  m_Name: KallioJaba
+  m_Name: FinanceBro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7143,7 +7153,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Score!
+  m_text: Well okay!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
   m_sharedMaterial: {fileID: 1942846863741834248, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
@@ -7368,7 +7378,7 @@ GameObject:
   - component: {fileID: 1200797865}
   - component: {fileID: 1200797864}
   m_Layer: 5
-  m_Name: LJ-Buttoni
+  m_Name: Hattu-Buttoni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7498,11 +7508,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1219746239}
   - component: {fileID: 1219746238}
-  - component: {fileID: 1219746237}
+  - component: {fileID: 1219746240}
   - component: {fileID: 1219746236}
   - component: {fileID: 1219746235}
   m_Layer: 0
-  m_Name: LeatherJacket
+  m_Name: Hattu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7522,8 +7532,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1529528332}
   cardReward: {fileID: 592803275}
-  dialogueToShow: "What a find! A vintage leather jacket. You're one step cloder
-    to being Kallioj\xE4b\xE4."
+  dialogueToShow: Oh teekkarihattu! Put it to your head and you're one step closer
+    to being Teekkari.
 --- !u!61 &1219746236
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7562,30 +7572,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 4.21, y: 4.56}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.7717085, y: 4.7035537}
   m_EdgeRadius: 0
---- !u!111 &1219746237
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1219746234}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
 --- !u!212 &1219746238
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7630,7 +7624,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -5743253408265218371, guid: 51f4337c2e88d4dac855d49fde93f830, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7650,12 +7644,34 @@ Transform:
   m_GameObject: {fileID: 1219746234}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.97, y: -6.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 1.98, y: -5.3, z: 0}
+  m_LocalScale: {x: 0.37, y: 0.37, z: 0.37}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1219746240
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219746234}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1221401548
 GameObject:
   m_ObjectHideFlags: 0
@@ -8043,7 +8059,7 @@ GameObject:
   - component: {fileID: 1381324651}
   - component: {fileID: 1381324650}
   m_Layer: 5
-  m_Name: 8-Dialogi
+  m_Name: Vest-Dialogi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8179,7 +8195,7 @@ GameObject:
   - component: {fileID: 1446403177}
   - component: {fileID: 1446403176}
   m_Layer: 5
-  m_Name: Skenettaja
+  m_Name: teekkari
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8254,11 +8270,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1492272611}
   - component: {fileID: 1492272610}
-  - component: {fileID: 1492272609}
+  - component: {fileID: 1492272612}
   - component: {fileID: 1492272608}
   - component: {fileID: 1492272607}
   m_Layer: 0
-  m_Name: Flow
+  m_Name: Salkku
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8278,7 +8294,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1047636585}
   cardReward: {fileID: 7397272}
-  dialogueToShow: "FLOW 2025 here we come! You're one step closer to being Skenett\xE4j\xE4!"
+  dialogueToShow: You started investing! You're one step closer to being Finance
+    bro.
 --- !u!61 &1492272608
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8317,30 +8334,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.35, y: 4.02}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.0113602, y: 4.48026}
   m_EdgeRadius: 0
---- !u!111 &1492272609
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492272606}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
 --- !u!212 &1492272610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8385,7 +8386,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 679658286744395376, guid: eabc9f4137a5247adb233311b8331cc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8405,12 +8406,34 @@ Transform:
   m_GameObject: {fileID: 1492272606}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.48, y: -7.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -8.23, y: -7.59, z: 0}
+  m_LocalScale: {x: 0.39, y: 0.39, z: 0.39}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1492272612
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492272606}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9aaed9bad040b4b359ea044f003f4562, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1529528332
 GameObject:
   m_ObjectHideFlags: 0
@@ -8423,7 +8446,7 @@ GameObject:
   - component: {fileID: 1529528335}
   - component: {fileID: 1529528334}
   m_Layer: 5
-  m_Name: LeatherJacket
+  m_Name: Hattu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8675,7 +8698,7 @@ GameObject:
   - component: {fileID: 1545979990}
   - component: {fileID: 1545979989}
   m_Layer: 0
-  m_Name: Skenettaja
+  m_Name: Teekkari
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8695,12 +8718,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1446403174}
   cardReward: {fileID: 143319466}
-  dialogueToShow: "Yo it\u2019s you! We bumped into each other at Siltanen last night,
-    right? Can\u2019t believe I lost my shutters again. Guess it\u2019s good I\u2019m
-    heading back to Berlin next week. I\u2019ll grab a new pair before Subterra.
-    You going? It\u2019s this sick techno event in Berlin. It\u2019s gonna be packed
-    with everyone who\u2019s anyone. Actually, there might be one bed left in our
-    airbnb if you wanna crash with us. "
+  dialogueToShow: "You ready for Vappu? We\u2019ve already got a little head start
+    on the celebration. It\u2019s been, what, five days now? Six? Who\u2019s counting.
+    You\u2019re coming with us and it\u2019s gonna be legendary. We\u2019ll show
+    you how a real teekkari night-out goes. Take a sip from my flask and let\u2019s
+    gooo!! "
 --- !u!61 &1545979990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8833,7 +8855,7 @@ Transform:
   m_GameObject: {fileID: 1545979988}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.8, y: 3.78, z: 0}
+  m_LocalPosition: {x: -7.18, y: -1.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9078,182 +9100,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590457355}
   m_CullTransparentMesh: 1
---- !u!1 &1621671802
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1621671807}
-  - component: {fileID: 1621671806}
-  - component: {fileID: 1621671805}
-  - component: {fileID: 1621671804}
-  - component: {fileID: 1621671803}
-  m_Layer: 3
-  m_Name: player (1)
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1621671803
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621671802}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.10028243, y: -1.9899663}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.11, y: 4.88}
-    newSize: {x: 2.11, y: 4.88}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1.672972, y: 0.731704}
-  m_EdgeRadius: 0
---- !u!114 &1621671804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621671802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eb7cfe38d9324afd8b683f51838d836, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
---- !u!50 &1621671805
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621671802}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 4
---- !u!212 &1621671806
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621671802}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1477051419
-  m_SortingLayer: 1
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 2374245614151371430, guid: a653b38da50e94f22af44d91c3a90a08, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.11, y: 4.88}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1621671807
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1621671802}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.93, y: 3.71, z: 0}
-  m_LocalScale: {x: 0.6154, y: 0.6154, z: 0.6154}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631882187
 GameObject:
   m_ObjectHideFlags: 0
@@ -9266,7 +9112,7 @@ GameObject:
   - component: {fileID: 1631882189}
   - component: {fileID: 1631882188}
   m_Layer: 5
-  m_Name: HarjuCard
+  m_Name: vestCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9292,7 +9138,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7393710473412363058, guid: 0f97d92af18ae42938ab6b65dfd838c1, type: 3}
+  m_Sprite: {fileID: 4087028461154673444, guid: 687992d73d44c4c12bcb0aa21ab327af, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9509,7 +9355,7 @@ GameObject:
   - component: {fileID: 1811178181}
   - component: {fileID: 1811178180}
   m_Layer: 5
-  m_Name: GlassesCard
+  m_Name: psychoCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9601,14 +9447,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 334521383}
-  - {fileID: 143319469}
   - {fileID: 2111647014}
+  - {fileID: 7397275}
+  - {fileID: 1631882190}
+  - {fileID: 1811178182}
+  - {fileID: 143319469}
   - {fileID: 571956843}
   - {fileID: 592803278}
   - {fileID: 816430730}
-  - {fileID: 1631882190}
-  - {fileID: 1811178182}
-  - {fileID: 7397275}
   m_Father: {fileID: 314424404}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -9628,7 +9474,7 @@ GameObject:
   - component: {fileID: 1978277527}
   - component: {fileID: 1978277526}
   m_Layer: 5
-  m_Name: Harju8
+  m_Name: Vest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10008,7 +9854,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: See you there!
+  m_text: Cha ching!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
   m_sharedMaterial: {fileID: 1942846863741834248, guid: 8606e94ca2fe84465947f0ec1f4691d5, type: 2}
@@ -10101,7 +9947,7 @@ GameObject:
   - component: {fileID: 2090249065}
   - component: {fileID: 2090249064}
   m_Layer: 0
-  m_Name: Sunglasses
+  m_Name: Psycho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10121,7 +9967,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 108003640}
   cardReward: {fileID: 1811178179}
-  dialogueToShow: "COOL! New sunglasses! You're one step closer to being Skenett\xE4j\xE4."
+  dialogueToShow: American Psycho! Now you can misunderstand this and you're one
+    step closer to being Finance bro.
 --- !u!61 &2090249065
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10160,13 +10007,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.58, y: 6.58}
+    oldSize: {x: 3.1, y: 3.95}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.681179, y: 4.681179}
   m_EdgeRadius: 0
 --- !u!95 &2090249066
 Animator:
@@ -10178,7 +10025,7 @@ Animator:
   m_GameObject: {fileID: 2090249063}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1e7922b4617fe4641967d2e529045315, type: 2}
+  m_Controller: {fileID: 9100000, guid: d0f28784a3d3549daad5bdd9bfdb52ea, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -10234,7 +10081,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 3fcfb7a1c5d8346e1966eb01ba9caaf6, type: 3}
+  m_Sprite: {fileID: 4810056239221725971, guid: 369bdaa511e374cbeaa827053babc282, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10254,7 +10101,7 @@ Transform:
   m_GameObject: {fileID: 2090249063}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.81, y: -7.91, z: 0}
+  m_LocalPosition: {x: -2.52, y: 0.15, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -10272,7 +10119,7 @@ GameObject:
   - component: {fileID: 2111647013}
   - component: {fileID: 2111647012}
   m_Layer: 5
-  m_Name: VinylCard
+  m_Name: KalleCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10298,7 +10145,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6564913764601011772, guid: d46b648840d204bbdab48e8d6510b88f, type: 3}
+  m_Sprite: {fileID: -6163787879252517445, guid: ff60c9b0d3a014bdb9e0ced3c3162246, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10345,13 +10192,12 @@ SceneRoots:
   - {fileID: 1059590778}
   - {fileID: 285430260}
   - {fileID: 130137127}
-  - {fileID: 1530519797}
-  - {fileID: 314424404}
-  - {fileID: 1621671807}
   - {fileID: 717144907}
   - {fileID: 2090249068}
-  - {fileID: 1545979993}
   - {fileID: 1492272611}
+  - {fileID: 1545979993}
   - {fileID: 1219746239}
   - {fileID: 1699031750}
+  - {fileID: 1530519797}
+  - {fileID: 314424404}
   - {fileID: 824881639}
