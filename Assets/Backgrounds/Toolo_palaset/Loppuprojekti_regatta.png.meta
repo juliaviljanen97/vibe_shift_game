@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 720cbfafe1a82412e877c9adc01278d6
+guid: 62dd3ee7bb3354d21a1e59110c5cd7e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4977558131070612842
-    second: protein-2_0
+      213: 7500616531218901694
+    second: Loppuprojekti_regatta_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: protein-2_0
+      name: Loppuprojekti_regatta_0
       rect:
         serializedVersion: 2
-        x: 123
-        y: 95
-        width: 420
-        height: 442
+        x: 139
+        y: 32
+        width: 476
+        height: 440
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69acda480492ceab0800000000000000
-      internalID: -4977558131070612842
+      spriteID: ebaa9b3cefa871860800000000000000
+      internalID: 7500616531218901694
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      protein-2_0: -4977558131070612842
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lakki-2_0: -2952129754660806884
+      lakki-2_1: 912744076057818819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
