@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      graafikko-1_0: 7112545756944390534
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

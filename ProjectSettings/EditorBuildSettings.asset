@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelThree.unity
     guid: 1fc7435b3badc431fbe0b071680f1a04
+  - enabled: 1
+    path: Assets/Scenes/LevelThreeAlepa.unity
+    guid: 87cf0ecf4b78b4a92ad9d000017a5a7c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

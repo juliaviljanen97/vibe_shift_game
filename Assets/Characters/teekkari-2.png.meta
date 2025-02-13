@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      teekkari-2_0: -763429035520681958
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
