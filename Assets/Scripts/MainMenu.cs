@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class MainMenu : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class MainMenu : MonoBehaviour
 
     public Button startButton; // Reference to the Start button
     public Button quitButton;  // Reference to the Quit button
+
+    private bool introText1Clicked = false; // Flag to track if introText1 was clicked
+    private bool introText2Clicked = false; // Flag to track if introText2 was clicked
 
     void Start()
     {
@@ -37,13 +41,28 @@ public class MainMenu : MonoBehaviour
     IEnumerator ShowIntroSequence()
     {
         introText1.gameObject.SetActive(true); // Show first text
-        yield return new WaitForSeconds(2f); // Wait for 2 seconds
+
+        // Wait until introText1 is clicked
+        yield return new WaitUntil(() => introText1Clicked);
 
         introText1.gameObject.SetActive(false); // Hide first text
         introText2.gameObject.SetActive(true); // Show second text
-        yield return new WaitForSeconds(sceneDelay); // Wait for sceneDelay seconds
+
+        // Wait until introText2 is clicked
+        yield return new WaitUntil(() => introText2Clicked);
+
 
         SceneManager.LoadScene("LevelOne"); // Load the game scene
+    }
+
+    public void OnIntroText1Clicked()
+    {
+        introText1Clicked = true;
+    }
+
+    public void OnIntroText2Clicked()
+    {
+        introText2Clicked = true;
     }
 
     public void QuitGame()

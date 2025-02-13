@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a2ea129da395848b98b77929ca167ecf
+guid: f8f87ae15c4864367b80f4b7a5cb2a11
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1799002058075944507
-    second: maitorahka_0
+      213: 4271015176031111778
+    second: maitorahka-2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: maitorahka_0
+      name: maitorahka-2_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 47
-        width: 643
-        height: 571
+        x: 91
+        y: 120
+        width: 466
+        height: 427
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c9cf22e829a807e0800000000000000
-      internalID: -1799002058075944507
+      spriteID: 26a03ad7ca1b54b30800000000000000
+      internalID: 4271015176031111778
       vertices: []
       indices: 
       edges: []
