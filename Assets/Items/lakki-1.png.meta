@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 2745fb319642f4e3d93904db7d6e718f
+guid: 51f4337c2e88d4dac855d49fde93f830
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4432794790905092863
-    second: gymbro-card-4_0
+      213: -5743253408265218371
+    second: lakki-1_0
+  - first:
+      213: -8935880815578237154
+    second: lakki-1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gymbro-card-4_0
+      name: lakki-1_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 160
-        width: 535
-        height: 337
+        x: 104
+        y: 88
+        width: 421
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffa991a5063748d30800000000000000
-      internalID: 4432794790905092863
+      spriteID: db6dc49447ddb40b0800000000000000
+      internalID: -5743253408265218371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lakki-1_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 543
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e173b381ebf5df380800000000000000
+      internalID: -8935880815578237154
       vertices: []
       indices: 
       edges: []

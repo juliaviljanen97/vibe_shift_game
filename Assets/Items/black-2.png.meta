@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2745fb319642f4e3d93904db7d6e718f
+guid: e1b2b2d42b7c24595849f7afd6893265
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4432794790905092863
-    second: gymbro-card-4_0
+      213: -7799045852075002361
+    second: black-2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gymbro-card-4_0
+      name: black-2_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 160
-        width: 535
-        height: 337
+        x: 204
+        y: 69
+        width: 197
+        height: 492
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffa991a5063748d30800000000000000
-      internalID: 4432794790905092863
+      spriteID: 706f5106e1934c390800000000000000
+      internalID: -7799045852075002361
       vertices: []
       indices: 
       edges: []
