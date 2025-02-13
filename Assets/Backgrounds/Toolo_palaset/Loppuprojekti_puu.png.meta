@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c231a33fee9084faa9281330541f641a
+guid: ebdb83c3af231447ea3c6a21d8c7fe8f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 765059659637105898
-    second: tyhja_hylly_0
+      213: 8754056603675537501
+    second: Loppuprojekti_puu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tyhja_hylly_0
+      name: Loppuprojekti_puu_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 25
+        y: 10
+        width: 281
+        height: 418
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae4a6acf4b90e9a00800000000000000
-      internalID: 765059659637105898
+      spriteID: d503ebd9918ac7970800000000000000
+      internalID: 8754056603675537501
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      tyhja_hylly_0: 765059659637105898
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

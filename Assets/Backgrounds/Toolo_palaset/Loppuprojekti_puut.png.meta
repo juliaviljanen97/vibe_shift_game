@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: c231a33fee9084faa9281330541f641a
+guid: ef5e6ac97da854640b87283843be01c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 765059659637105898
-    second: tyhja_hylly_0
+      213: -213943486611325899
+    second: Loppuprojekti_puut_0
+  - first:
+      213: 6464263658726351301
+    second: Loppuprojekti_puut_1
+  - first:
+      213: 2779819166020963183
+    second: Loppuprojekti_puut_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tyhja_hylly_0
+      name: Loppuprojekti_puut_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 2
+        y: 345
+        width: 90
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae4a6acf4b90e9a00800000000000000
-      internalID: 765059659637105898
+      spriteID: 53cf58e488be70df0800000000000000
+      internalID: -213943486611325899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loppuprojekti_puut_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 345
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1e9d86c8da5b950800000000000000
+      internalID: 6464263658726351301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loppuprojekti_puut_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6
+        width: 428
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b808aadc6e39620800000000000000
+      internalID: 2779819166020963183
       vertices: []
       indices: 
       edges: []
@@ -147,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      tyhja_hylly_0: 765059659637105898
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
