@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shaker-2_0: 6311561916736252690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
