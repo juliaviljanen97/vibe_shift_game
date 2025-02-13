@@ -6,34 +6,23 @@ using UnityEngine.UI;
 public class InventoryManager : MonoBehaviour
 {
     public GameObject inventoryPanel; // Viittaus paneeliin
-    public TextMeshProUGUI inventoryText; // Viittaus tekstikenttään
-    public Button inventoryButton; // Viittaus inventoryn avaavaan/sulkevaan nappiin
+    public GameObject inventoryOpen;
 
-    private List<string> collectedItems = new List<string>(); // Lista kerätyistä esineistä
 
     void Start()
     {
         inventoryPanel.SetActive(false); // Inventaario alkaa piilotettuna
-        inventoryButton.onClick.AddListener(ToggleInventory); // Liitetään nappi toimintoon
     }
 
-    public void ToggleInventory()
+    public void InventoryOpen()
     {
-        inventoryPanel.SetActive(!inventoryPanel.activeSelf); // Avaa tai sulje inventaario
+        inventoryPanel.SetActive(true);
+        inventoryOpen.SetActive(false);
     }
 
-    public void AddItem(string itemName)
+    public void InventoryClose()
     {
-        collectedItems.Add(itemName);
-        UpdateInventoryText();
-    }
-
-    private void UpdateInventoryText()
-    {
-        inventoryText.text = "Kerätyt esineet:\n";
-        foreach (string item in collectedItems)
-        {
-            inventoryText.text += "• " + item + "\n";
-        }
+        inventoryPanel.SetActive(false);
+        inventoryOpen.SetActive(true);
     }
 }
