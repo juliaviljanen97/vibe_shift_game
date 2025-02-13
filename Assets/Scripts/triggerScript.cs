@@ -43,18 +43,18 @@ public class triggerScript : MonoBehaviour
     {
         while (true)
         {
-            // Rotate from 15 to -15 degrees
+            // Rotate from 0 to -0 degrees
             for (float t = 0; t <= 1; t += Time.deltaTime)
             {
-                float angle = Mathf.Lerp(15f, -15f, t);
+                float angle = Mathf.Lerp(0f, -0f, t);
                 cardReward.transform.rotation = Quaternion.Euler(0, 0, angle);
                 yield return null;
             }
             
-            // Rotate from -15 to 15 degrees
+            // Rotate from -0 to 0 degrees
             for (float t = 0; t <= 1; t += Time.deltaTime)
             {
-                float angle = Mathf.Lerp(-15f, 15f, t);
+                float angle = Mathf.Lerp(-0f, 0f, t);
                 cardReward.transform.rotation = Quaternion.Euler(0, 0, angle);
                 yield return null;
             }
