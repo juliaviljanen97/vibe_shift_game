@@ -9,7 +9,8 @@ public class MusicManager : MonoBehaviour
     public AudioClip level2Music;
     public AudioClip level3Music;
     public AudioClip level4Music; // LevelThreeAlepa
-    public AudioClip level5Music; // Main-menu
+    public AudioClip level5Music; // LevelThreeAlepa
+    public AudioClip level6Music; // Main-menu
 
     private AudioSource audioSource;
 
@@ -49,9 +50,9 @@ public class MusicManager : MonoBehaviour
         else if (sceneName == "LevelThreeAlepa") // Uusi taso
             newClip = level4Music;
             else if (sceneName == "LevelThreePostAlepa") // Uusi taso
-            newClip = level4Music;
-        else if (sceneName == "Main-menu") // Uusi taso
             newClip = level5Music;
+        else if (sceneName == "Main-menu") // Uusi taso
+            newClip = level6Music;
 
         if (newClip != null && audioSource.clip != newClip)
         {
