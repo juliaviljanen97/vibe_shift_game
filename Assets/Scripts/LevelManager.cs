@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+    public GameObject level2inv;
     public GameObject[] cards; // Lisää kaikki UI-kortit Inspectorissa
     public int nextLevelIndex; // Määrittele seuraava levelin index
 
@@ -10,8 +11,10 @@ public class LevelManager : MonoBehaviour
     {
         if (AllCardsCollected()) // Tarkistetaan onko kaikki kortit kerätty
         {
+            Destroy(level2inv);
             LoadNextLevel(); // Siirrytään seuraavalle tasolle
         }
+        Debug.Log(AllCardsCollected());
     }
 
     bool AllCardsCollected()

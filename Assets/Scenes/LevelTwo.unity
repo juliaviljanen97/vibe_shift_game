@@ -1637,6 +1637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25772d50f46704f748f21aa94e85ed4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level2inv: {fileID: 1568461562}
   cards:
   - {fileID: 1295338116}
   - {fileID: 1287949}
@@ -6791,7 +6792,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568461562}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1d67d7c45be74249b6259372fc66b1f, type: 3}
   m_Name: 
