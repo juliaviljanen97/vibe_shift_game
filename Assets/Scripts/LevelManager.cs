@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Linq;
 
 public class LevelManager : MonoBehaviour
 {
@@ -19,11 +20,20 @@ public class LevelManager : MonoBehaviour
         Debug.Log(AllCardsCollected());
 
         //Debug.Log(alepaTrip);
-        if (alepaTrip == 3)
+    if (alepaTrip == 3)
+    {
+        level2inv.SetActive(false);
+        
+        // Destroy all DontDestroyOnLoad objects
+        var dontDestroyObjects = Object.FindObjectsOfType<GameObject>()
+            .Where(go => go.scene.name == "DontDestroyOnLoad");
+        foreach (var obj in dontDestroyObjects)
         {
-            Destroy(level2inv);
-            SceneManager.LoadScene("LevelThreePostAlepa");
+            Destroy(obj);
         }
+        
+        SceneManager.LoadScene("LevelThreePostAlepa");
+    }
 
     }
 

@@ -1576,7 +1576,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &138636258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138636257}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 976877bc1abce4a6ebb36c6f081cec72, type: 3}
   m_Name: 
@@ -1594,6 +1594,7 @@ MonoBehaviour:
   level3Music: {fileID: 8300000, guid: 9d6b647729494465b833e901c73202cf, type: 3}
   level4Music: {fileID: 0}
   level5Music: {fileID: 0}
+  level6Music: {fileID: 0}
 --- !u!4 &138636259
 Transform:
   m_ObjectHideFlags: 0
@@ -6267,7 +6268,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808915069}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e41918b5bd410b45a8199d99754f647, type: 3}
   m_Name: 

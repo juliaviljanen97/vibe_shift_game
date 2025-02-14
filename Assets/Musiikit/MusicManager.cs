@@ -1,3 +1,4 @@
+using System.IO.Compression;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -45,11 +46,11 @@ public class MusicManager : MonoBehaviour
             newClip = level1Music;
         else if (sceneName == "LevelTwo")
             newClip = level2Music;
-        else if (sceneName == "LevelThree")
+        else if (sceneName == "LevelThree" || sceneName =="LevelThreePostAlepa")
             newClip = level3Music;
         else if (sceneName == "LevelThreeAlepa") // Uusi taso
             newClip = level4Music;
-            else if (sceneName == "LevelThreePostAlepa") // Uusi taso
+        else if (sceneName == "FinalLevel") // Uusi taso
             newClip = level5Music;
         else if (sceneName == "Main-menu") // Uusi taso
             newClip = level6Music;
