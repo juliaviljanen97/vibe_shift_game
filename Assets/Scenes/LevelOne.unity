@@ -8647,7 +8647,7 @@ MonoBehaviour:
   - {fileID: 571956840}
   - {fileID: 592803275}
   - {fileID: 816430727}
-  nextLevelIndex: 3
+  nextLevelIndex: 2
   alepaTrip: 0
 --- !u!4 &1091927120
 Transform:

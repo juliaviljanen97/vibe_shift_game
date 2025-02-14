@@ -4253,7 +4253,7 @@ MonoBehaviour:
   - {fileID: 910832127}
   - {fileID: 1541236743}
   - {fileID: 1406356336}
-  nextLevelIndex: 7
+  nextLevelIndex: 6
   alepaTrip: 0
 --- !u!4 &906529605
 Transform:
