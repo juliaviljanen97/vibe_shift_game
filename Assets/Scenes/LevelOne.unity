@@ -1592,6 +1592,8 @@ MonoBehaviour:
   level1Music: {fileID: 8300000, guid: 18d1a638d12834b01ac70a579cd24959, type: 3}
   level2Music: {fileID: 8300000, guid: 9d27924db9174457ea35a24551016278, type: 3}
   level3Music: {fileID: 8300000, guid: 9d6b647729494465b833e901c73202cf, type: 3}
+  level4Music: {fileID: 0}
+  level5Music: {fileID: 0}
 --- !u!4 &138636259
 Transform:
   m_ObjectHideFlags: 0
@@ -8630,7 +8632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25772d50f46704f748f21aa94e85ed4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level2inv: {fileID: 0}
+  level2inv: {fileID: 314424403}
   cards:
   - {fileID: 2111647011}
   - {fileID: 7397272}
@@ -8645,6 +8647,7 @@ MonoBehaviour:
   - {fileID: 592803275}
   - {fileID: 816430727}
   nextLevelIndex: 3
+  alepaTrip: 0
 --- !u!4 &1091927120
 Transform:
   m_ObjectHideFlags: 0
