@@ -7,6 +7,8 @@ public class LevelManager : MonoBehaviour
     public GameObject[] cards; // Lisää kaikki UI-kortit Inspectorissa
     public int nextLevelIndex; // Määrittele seuraava levelin index
 
+    public int  alepaTrip;
+
     void Update()
     {
         if (AllCardsCollected()) // Tarkistetaan onko kaikki kortit kerätty
@@ -15,6 +17,14 @@ public class LevelManager : MonoBehaviour
             LoadNextLevel(); // Siirrytään seuraavalle tasolle
         }
         Debug.Log(AllCardsCollected());
+
+        //Debug.Log(alepaTrip);
+        if (alepaTrip == 3)
+        {
+            Destroy(level2inv);
+            SceneManager.LoadScene("LevelThreePostAlepa");
+        }
+
     }
 
     bool AllCardsCollected()
@@ -33,4 +43,6 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(nextLevelIndex); // Lataa seuraava taso, joka määritelty nextLevelIndexillä
     }
+
+    
 }

@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 77207366}
   - component: {fileID: 77207365}
   - component: {fileID: 77207369}
+  - component: {fileID: 77207370}
   m_Layer: 0
   m_Name: Creatine
   m_TagString: Untagged
@@ -292,6 +293,19 @@ MonoBehaviour:
   dialoguePanel: {fileID: 842755354}
   cardReward: {fileID: 171946518}
   dialogueToShow: ' '
+  levelM: {fileID: 459951711}
+--- !u!114 &77207370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77207363}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0903a5a62d1ed54a851bdd427e8f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &84510984
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,11 +966,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25772d50f46704f748f21aa94e85ed4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level2inv: {fileID: 2038780015}
   cards:
   - {fileID: 1453126380}
   - {fileID: 88726530}
   - {fileID: 171946518}
   nextLevelIndex: 4
+  alepaTrip: 0
 --- !u!4 &459951713
 Transform:
   m_ObjectHideFlags: 0
@@ -1494,6 +1510,7 @@ GameObject:
   - component: {fileID: 1365124046}
   - component: {fileID: 1365124045}
   - component: {fileID: 1365124049}
+  - component: {fileID: 1365124050}
   m_Layer: 0
   m_Name: Quark
   m_TagString: Untagged
@@ -1654,6 +1671,19 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1619630926}
   cardReward: {fileID: 1453126380}
   dialogueToShow: ' '
+  levelM: {fileID: 459951711}
+--- !u!114 &1365124050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365124043}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0903a5a62d1ed54a851bdd427e8f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1366128221
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,6 +2257,7 @@ GameObject:
   - component: {fileID: 1771739209}
   - component: {fileID: 1771739204}
   - component: {fileID: 1771739208}
+  - component: {fileID: 1771739210}
   m_Layer: 0
   m_Name: Shaker
   m_TagString: Untagged
@@ -2365,6 +2396,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 2046978489}
   cardReward: {fileID: 88726530}
   dialogueToShow: ' '
+  levelM: {fileID: 459951711}
 --- !u!95 &1771739209
 Animator:
   serializedVersion: 7
@@ -2387,6 +2419,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1771739210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771739202}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0903a5a62d1ed54a851bdd427e8f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1824259734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,8 +2532,8 @@ GameObject:
   - component: {fileID: 2038780017}
   - component: {fileID: 2038780016}
   m_Layer: 5
-  m_Name: Canvas
-  m_TagString: UI
+  m_Name: Alepa Canvas
+  m_TagString: UI2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2501,7 +2545,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038780015}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1d67d7c45be74249b6259372fc66b1f, type: 3}
   m_Name: 

@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelThreeAlepa.unity
     guid: 87cf0ecf4b78b4a92ad9d000017a5a7c
   - enabled: 1
+    path: Assets/Scenes/LevelThreePostAlepa.unity
+    guid: 887f4064970bc4f4abce9d21d1942f22
+  - enabled: 1
     path: Assets/Scenes/FinalLevel.unity
     guid: 25f4cff7d091a4a449ac39f21a0ccc0f
   m_configObjects:

@@ -12,6 +12,8 @@ public class clickScript : MonoBehaviour, IPointerClickHandler
     private bool convoDone; // on/off check to not repeat conversations
     private Coroutine swagCardCoroutine; // optional animation
 
+    public GameObject levelM;
+
     void Start()
     {
         // Hide the dialogue and reward, don't be paused
@@ -23,6 +25,21 @@ public class clickScript : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         StartDialogue();
+        if (gameObject.name == "Quark")
+        {
+            Debug.Log("quark");
+            levelM.GetComponent<LevelManager>().alepaTrip ++;
+        }
+        else if (gameObject.name == "Shaker")
+        {
+            Debug.Log("shake");
+            levelM.GetComponent<LevelManager>().alepaTrip ++;
+        }
+        else if (gameObject.name == "Creatine")
+        {
+            Debug.Log("creatine");
+            levelM.GetComponent<LevelManager>().alepaTrip ++;
+        }
     }
 
     private void StartDialogue()
