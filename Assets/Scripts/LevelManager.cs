@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour
     {
         foreach (GameObject card in cards)
         {
-            if (!card.activeInHierarchy) // Jos joku kortti ei ole näkyvissä, palautetaan false
+            if (!card.activeInHierarchy) // If any card is not visible, return false
             {
                 return false;
             }
