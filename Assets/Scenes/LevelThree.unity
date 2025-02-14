@@ -2398,7 +2398,6 @@ GameObject:
   - component: {fileID: 640590613}
   - component: {fileID: 640590612}
   - component: {fileID: 640590615}
-  - component: {fileID: 640590616}
   m_Layer: 0
   m_Name: Protein_trigger
   m_TagString: Untagged
@@ -2535,18 +2534,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &640590616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 640590611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11f36e013289248d680c1d00782155d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &654704989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2661,7 +2648,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661705628}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e835e73a7402443abb44f2de7fed9a38, type: 3}
   m_Name: 
@@ -2674,7 +2661,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661705628}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -3180,7 +3167,6 @@ GameObject:
   - component: {fileID: 726498213}
   - component: {fileID: 726498212}
   - component: {fileID: 726498215}
-  - component: {fileID: 726498216}
   m_Layer: 0
   m_Name: Quark_trigger
   m_TagString: Untagged
@@ -3317,18 +3303,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &726498216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 726498211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11f36e013289248d680c1d00782155d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &726988749
 GameObject:
   m_ObjectHideFlags: 0
@@ -5016,7 +4990,6 @@ GameObject:
   - component: {fileID: 1028191837}
   - component: {fileID: 1028191836}
   - component: {fileID: 1028191839}
-  - component: {fileID: 1028191840}
   m_Layer: 0
   m_Name: Shake_trigger
   m_TagString: Untagged
@@ -5153,18 +5126,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1028191840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1028191835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11f36e013289248d680c1d00782155d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1076599093
 GameObject:
   m_ObjectHideFlags: 0
