@@ -3,14 +3,14 @@ using UnityEngine;
 using TMPro; // For TextMeshPro
 using UnityEngine.UI;
 
-public class triggerScript : MonoBehaviour
+public class TriggerScript : MonoBehaviour
 {
     public GameObject dialoguePanel; // connect to the same panel each time
     public GameObject cardReward; // a UI image to toggle on/off after the dialogue if you want
+    private GameObject levelManager; // the script where we keep track of the cards found
     public string dialogueToShow = ""; // but change the dialogue in Inspector for each trigger
     private bool convoDone; // on/off check to not repeat conversations
     private PlayerMovement playerMoveScript; // we'll assign this in the collision and need to save it to use with the close dialogue button
-    private Coroutine swagCardCoroutine; // optional animation
 
     void Start()
     {
@@ -18,6 +18,9 @@ public class triggerScript : MonoBehaviour
         dialoguePanel.SetActive(false);
         dialoguePanel.GetComponentInChildren<TextMeshProUGUI>().text = dialogueToShow;
         cardReward.SetActive(false);
+
+        // Find and assign the LevelManager GameObject
+        levelManager = GameObject.FindGameObjectWithTag("LevelManager");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -28,6 +31,7 @@ public class triggerScript : MonoBehaviour
             playerMoveScript.moveSpeed = 0f; // 'pausing' the game by not letting the player move until they click the button in the UI
             dialoguePanel.SetActive(true);
             convoDone = true;
+            levelManager.GetComponent<LevelManager>().cardCount += 1; // keeping track of cards in level Manager GO
         }
     }
 
@@ -36,28 +40,5 @@ public class triggerScript : MonoBehaviour
             dialoguePanel.SetActive(false);
             playerMoveScript.moveSpeed = 5f;
             cardReward.SetActive(true);
-            swagCardCoroutine = StartCoroutine(SwagCard()); // optional animation for card (can delete)
-    }
-
-    private IEnumerator SwagCard() // optional animation
-    {
-        while (true)
-        {
-            // Rotate from 0 to -0 degrees
-            for (float t = 0; t <= 1; t += Time.deltaTime)
-            {
-                float angle = Mathf.Lerp(0f, -0f, t);
-                cardReward.transform.rotation = Quaternion.Euler(0, 0, angle);
-                yield return null;
-            }
-            
-            // Rotate from -0 to 0 degrees
-            for (float t = 0; t <= 1; t += Time.deltaTime)
-            {
-                float angle = Mathf.Lerp(-0f, 0f, t);
-                cardReward.transform.rotation = Quaternion.Euler(0, 0, angle);
-                yield return null;
-            }
-        }
     }
 }

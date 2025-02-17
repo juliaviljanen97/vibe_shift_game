@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ItemLink : MonoBehaviour
+public class AlepaTrigger : MonoBehaviour
 {
-    public string sceneName; // Tämä on se scene, johon pelaaja siirtyy
+    int currentScene;
 
-    // Tämä funktio kutsutaan, kun pelaaja osuu trigger-alueeseen
+    void Start()
+    {
+        currentScene = SceneManager.GetActiveScene().buildIndex;
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) // Varmistetaan, että pelaaja osuu
@@ -17,6 +20,6 @@ public class ItemLink : MonoBehaviour
     // Funktio, joka lataa uuden sceneen
     private void LoadScene()
     {
-        SceneManager.LoadScene(sceneName); // Lataa uusi scene
+        SceneManager.LoadScene(currentScene + 1);
     }
 }

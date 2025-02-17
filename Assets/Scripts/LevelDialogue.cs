@@ -3,11 +3,11 @@ using UnityEngine;
 using TMPro; // For TextMeshPro
 using UnityEngine.UI;
 
-public class LevelOneDialogue : MonoBehaviour
+public class LevelDialogue : MonoBehaviour
 {
     public GameObject dialoguePanel; // Reference to the dialogue panel
-    public TextMeshProUGUI dialogueText; // Reference to the dialogue text
-    public string dialogueToShow; // The dialogue text to show
+    //public TextMeshProUGUI dialogueText; // Reference to the dialogue text
+    //public string dialogueToShow; // The dialogue text to show
 
     void Start()
     {
@@ -21,7 +21,7 @@ public class LevelOneDialogue : MonoBehaviour
     IEnumerator ShowDialogueSequence()
     {
         dialoguePanel.SetActive(true); // Show the dialogue panel
-        dialogueText.text = dialogueToShow; // Show the entire dialogue text
+        //dialogueText.text = dialogueToShow; // Show the entire dialogue text
 
         // Wait for mouse click
         yield return new WaitUntil(() => Input.GetMouseButtonDown(0));

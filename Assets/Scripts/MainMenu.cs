@@ -17,8 +17,10 @@ public class MainMenu : MonoBehaviour
     private bool introText1Clicked = false; // Flag to track if introText1 was clicked
     private bool introText2Clicked = false; // Flag to track if introText2 was clicked
 
+    int currentScene;
     void Start()
     {
+        currentScene = SceneManager.GetActiveScene().buildIndex;
         // Ensure text is hidden at the beginning
         introText1.gameObject.SetActive(false);
         introText2.gameObject.SetActive(false);
@@ -52,7 +54,7 @@ public class MainMenu : MonoBehaviour
         yield return new WaitUntil(() => introText2Clicked);
 
 
-        SceneManager.LoadScene("LevelOne"); // Load the game scene
+        SceneManager.LoadScene(currentScene + 1);
     }
 
     public void OnIntroText1Clicked()

@@ -1,58 +1,43 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Linq;
 
 public class LevelManager : MonoBehaviour
 {
-    public GameObject level2inv;
-    public GameObject[] cards; // Lisää kaikki UI-kortit Inspectorissa
-    public int nextLevelIndex; // Määrittele seuraava levelin index
+    public int cardCount = 0;
 
-    public int  alepaTrip;
+    public GameObject nextLevelButton;
 
+    int currentScene;
+
+    void Start()
+    {
+        currentScene = SceneManager.GetActiveScene().buildIndex;
+        nextLevelButton.SetActive(false);
+    }
     void Update()
     {
-        if (AllCardsCollected()) // Tarkistetaan onko kaikki kortit kerätty
-        {
-            Destroy(level2inv);
-            LoadNextLevel(); // Siirrytään seuraavalle tasolle
-        }
-        Debug.Log(AllCardsCollected());
-
-        //Debug.Log(alepaTrip);
-    if (alepaTrip == 3)
-    {
-        level2inv.SetActive(false);
         
-        // Destroy all DontDestroyOnLoad objects
-        var dontDestroyObjects = Object.FindObjectsOfType<GameObject>()
-            .Where(go => go.scene.name == "DontDestroyOnLoad");
-        foreach (var obj in dontDestroyObjects)
+        if ((currentScene == 1) && cardCount == 12) //  level 1 collect 12 cards
         {
-            Destroy(obj);
+            nextLevelButton.SetActive(true);
         }
-        
-        SceneManager.LoadScene("LevelThreePostAlepa");
-    }
-
-    }
-
-    bool AllCardsCollected()
-    {
-        foreach (GameObject card in cards)
+        else if ((currentScene == 2) && cardCount == 8) // level 2 has 8 caards
         {
-            if (!card.activeInHierarchy) // If any card is not visible, return false
-            {
-                return false;
-            }
+            nextLevelButton.SetActive(true);
         }
-        return true; // Kaikki kortit ovat kerätty, palautetaan true
+        else if (currentScene == 4 && cardCount == 3) // alepa has 3 cards to collect
+        {
+            nextLevelButton.SetActive(true);
+        }
+        else if (currentScene == 5 && cardCount == 5) // level 3(5) has 5 cards (3 from alepa already collected)
+        {
+            nextLevelButton.SetActive(true);
+        }
     }
 
-    void LoadNextLevel()
+    public void NextLevel()
     {
-        SceneManager.LoadScene(nextLevelIndex); // Lataa seuraava taso, joka määritelty nextLevelIndexillä
+        SceneManager.LoadScene(currentScene + 1);
     }
 
-    
 }
