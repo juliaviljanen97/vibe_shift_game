@@ -2089,8 +2089,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 343254475}
-  dialogueText: {fileID: 0}
-  dialogueToShow: 
 --- !u!1 &447887513
 GameObject:
   m_ObjectHideFlags: 0
@@ -6686,6 +6684,7 @@ GameObject:
   - component: {fileID: 1553836181}
   - component: {fileID: 1553836180}
   - component: {fileID: 1553836178}
+  - component: {fileID: 1553836184}
   m_Layer: 3
   m_Name: player
   m_TagString: Player
@@ -6752,6 +6751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  animator: {fileID: 1553836184}
 --- !u!50 &1553836181
 Rigidbody2D:
   serializedVersion: 5
@@ -6849,6 +6849,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1553836184
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553836177}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3def4e6a24a4745dc93399837af4551a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1568461562
 GameObject:
   m_ObjectHideFlags: 0
