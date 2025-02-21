@@ -845,7 +845,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1899232732}
   cardReward: {fileID: 1811178179}
-  levelManager: {fileID: 0}
   dialogueToShow: Finally enough money to Macbook! You're one step closer to being
     Graphic designer.
 --- !u!61 &70151899
@@ -1369,7 +1368,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1132246343}
   cardReward: {fileID: 1195137573}
-  levelManager: {fileID: 0}
   dialogueToShow: "So here\u2019s the deal with investing\u2014it's all about building
     wealth over time. You can start small with ETFs or index funds, those are pretty
     low-risk and track the market as a whole. If you\u2019re a bit bolder, individual
@@ -2044,6 +2042,7 @@ GameObject:
   - component: {fileID: 285430257}
   - component: {fileID: 285430261}
   - component: {fileID: 285430262}
+  - component: {fileID: 285430263}
   m_Layer: 3
   m_Name: player
   m_TagString: Player
@@ -2064,6 +2063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  animator: {fileID: 285430263}
 --- !u!50 &285430258
 Rigidbody2D:
   serializedVersion: 5
@@ -2158,7 +2158,8 @@ Transform:
   m_LocalPosition: {x: -13.87, y: 4.27, z: 0}
   m_LocalScale: {x: 0.71766734, y: 0.71766734, z: 0.71766734}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1624582077}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &285430261
@@ -2387,6 +2388,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.11, y: 0.55498016}
   m_EdgeRadius: 0
+--- !u!95 &285430263
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285430256}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 60b7c45ebdbea46cd8613792134aaeae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &314424403
 GameObject:
   m_ObjectHideFlags: 0
@@ -5820,7 +5843,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1978277524}
   cardReward: {fileID: 637451676}
-  levelManager: {fileID: 0}
   dialogueToShow: That vest is a must-have! You're one step closer to being a Finance
     bro.
 --- !u!61 &717144904
@@ -6455,8 +6477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e5f6d95c03d942a48c1468da7af9030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 285430260}
-  smoothSpeed: 0.125
+  player: {fileID: 1624582077}
+  smoothSpeed: 0.2
   offset: {x: 0, y: 0, z: -10}
 --- !u!1 &824881636
 GameObject:
@@ -6999,7 +7021,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1666881459}
   cardReward: {fileID: 2111647011}
-  levelManager: {fileID: 0}
   dialogueToShow: "Sorry, I\u2019ve been MIA\u2013everyone\u2019s after a new logo
     or a killer poster these days. The little time I\u2019ve had away from Adobe,
     I\u2019ve spent finishing my latest font. It\u2019s this neo-humanist typeface
@@ -9636,7 +9657,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1529528332}
   cardReward: {fileID: 592803275}
-  levelManager: {fileID: 0}
   dialogueToShow: Oh teekkarihattu! Put it to your head and you're one step closer
     to being Teekkari.
 --- !u!61 &1219746236
@@ -10534,13 +10554,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1351394392}
-  dialogueText: {fileID: 1226380196}
-  dialogueToShow: "Okay, let\u2019s start with Otaniemi, the campus area. This is
-    a safe space to begin. Lots of people with different interests. Maybe start by
-    meeting people from different schools? There are cool graphic designers, ambitious
-    finance bros and easy-going tech students aka \u201Cteekkarit\u201D. Or at least
-    I\u2019\u2019ve seen them on Tinder\u2026maybe you should try meeting them face-to-face
-    first?"
 --- !u!4 &1400852686
 Transform:
   m_ObjectHideFlags: 0
@@ -10936,7 +10949,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1047636585}
   cardReward: {fileID: 926383378}
-  levelManager: {fileID: 0}
   dialogueToShow: You started investing! You're one step closer to being Finance
     bro.
 --- !u!61 &1492272608
@@ -11188,7 +11200,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1590457355}
   cardReward: {fileID: 571956840}
-  levelManager: {fileID: 0}
   dialogueToShow: The good old Linux! You're one step closer to being Teekkari.
 --- !u!61 &1530519794
 BoxCollider2D:
@@ -11362,7 +11373,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1446403174}
   cardReward: {fileID: 143319466}
-  levelManager: {fileID: 0}
   dialogueToShow: "You ready for Vappu? We\u2019ve already got a little head start
     on the celebration. It\u2019s been, what, five days now? Six? Who\u2019s counting.
     You\u2019re coming with us and it\u2019s gonna be legendary. We\u2019ll show
@@ -11881,6 +11891,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590457355}
   m_CullTransparentMesh: 1
+--- !u!1 &1624582076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624582077}
+  m_Layer: 0
+  m_Name: GameObjectForTheCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1624582077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624582076}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.77381, y: -4.433146, z: -0.0048533864}
+  m_LocalScale: {x: 1.3934032, y: 1.3934032, z: 1.3934032}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 285430260}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631882187
 GameObject:
   m_ObjectHideFlags: 0
@@ -12067,7 +12108,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1221401548}
   cardReward: {fileID: 816430727}
-  levelManager: {fileID: 0}
   dialogueToShow: Wabu ei lobu! The never ending party. You're one step closer to
     being Teekkari.
 --- !u!61 &1699031747
@@ -12372,7 +12412,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 349064688}
   cardReward: {fileID: 1631882187}
-  levelManager: {fileID: 0}
   dialogueToShow: Helvetica! Or as we graphic designers call it Neue Haas Grotesk.
     You're one step closer to being Graphic designer.
 --- !u!61 &1780331357
@@ -13093,7 +13132,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 193873103}
   cardReward: {fileID: 7397272}
-  levelManager: {fileID: 0}
   dialogueToShow: Now you look like an art student! You're one step closer to being
     Graphic designer.
 --- !u!61 &1992228570
@@ -13798,7 +13836,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 108003640}
   cardReward: {fileID: 1120645703}
-  levelManager: {fileID: 0}
   dialogueToShow: American Psycho! Now you can misunderstand this and you're one
     step closer to being Finance bro.
 --- !u!61 &2090249065

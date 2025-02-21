@@ -3,13 +3,20 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform player; // Pelaajan sijainti
-    public float smoothSpeed = 0.125f; // Kameran pehmeys
+    public float smoothSpeed = 0.2f; // Kameran pehmeys
     public Vector3 offset; // Kameran etäisyys pelaajasta
 
     private Vector2 minBounds; // Kamera-alueen rajat
     private Vector2 maxBounds;
     private float cameraHalfWidth;
     private float cameraHalfHeight;
+
+    private Vector3 velocity = Vector3.zero;
+
+
+
+ 
+
 
     void Start()
     {
@@ -35,7 +42,7 @@ public class CameraFollow : MonoBehaviour
         if (player == null) return; // Varmistetaan, että pelaaja on määritetty
 
         Vector3 desiredPosition = player.position + offset; // Haluttu sijainti
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed); // Pehmeä liike
+       Vector3 smoothedPosition = Vector3.SmoothDamp(transform.position, desiredPosition, ref velocity, smoothSpeed);
 
         // Rajoitetaan kameran liike pelialueen sisään
         smoothedPosition.x = Mathf.Clamp(smoothedPosition.x, minBounds.x, maxBounds.x);
@@ -44,4 +51,8 @@ public class CameraFollow : MonoBehaviour
 
         transform.position = smoothedPosition;
     }
+
+ 
+
+
 }
